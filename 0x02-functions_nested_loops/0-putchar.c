@@ -1,20 +1,17 @@
 #include "putchar.h"
 /**
- * main - Print "_putchar" followed by a new line.
- * Description: You are not allowed to include standard libraries.
- * Return: 0
+ * main - prints the string "Holberton" from a character array.
+ * Return: 0 on success.
  */
 int main(void)
 {
-	char putchar[] = "_putchar";
-	int i = 0;
+	char c[] = "putchar";
+	int i;
 
-	while (putchar[i] != '\0')
+	for (i = 0; i < 9; i++)
 	{
-		_putchar(putchar[i]);
-		i++;
+		_putchar(c[i]);
 	}
 	_putchar('\n');
-
 	return (0);
 }
