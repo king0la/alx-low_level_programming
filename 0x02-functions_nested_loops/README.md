@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-README
-=======
-NESTED LOOPS README
->>>>>>> 0e0c9e199ab52c45e9ee7897518e596de25e8cb4
+My nested loops README
