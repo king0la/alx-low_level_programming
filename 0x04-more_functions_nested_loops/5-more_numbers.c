@@ -5,7 +5,6 @@
  * Description: Can only use _putchar 3 times
  */
 void more_numbers(void)
-void more_numbers(void)
 {
 	int c, i;
 
